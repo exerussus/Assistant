@@ -69,6 +69,7 @@ class EasySettings:
     def set_telegram_bot():
         new_token = input("Telegram token: ")
         Config().telegram.token = new_token
+        Config().save()
         input("Нажмите Enter чтобы продолжить...")
 
     @staticmethod
