@@ -4,7 +4,7 @@ import telebot
 from tools.config.config import Config
 from inWorking.chatGPT.main import ChatGPT
 from tools.sqlSetting import get_access_rights, clean_user_status, get_user_status, set_user_status
-from inWorking.chatGPT.sqlChatGPT import get_dict_bots_for_users
+# from inWorking.chatGPT.sqlChatGPT import get_dict_bots_for_users
 from tools.getter.apps_getter import get_apps_list
 from requests.exceptions import ReadTimeout
 from tools.debugger.debuger import debug_log

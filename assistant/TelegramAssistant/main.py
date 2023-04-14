@@ -69,3 +69,6 @@ def run():
     assistant.poling_get_message()
 
 
+if __name__ == '__main__':
+    run()
+    
