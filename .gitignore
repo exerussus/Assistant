@@ -1,0 +1,13 @@
+/privateStart.py
+/data/privateData.py
+/data/chatModel.db
+/data/application.db
+/data/settings.db
+**/__pycache__
+/app/points
+test.py
+data/private.py
+start.py
+data/taro.db
+/data/config.json
+/inWorking/
