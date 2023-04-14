@@ -1,6 +1,6 @@
 from tools.sqlSetting import set_user_name, add_user_to_access_group, delete_user_from_access_group, add_apps, get_apps_names_list, \
     get_access_apps_names_list_for_user, get_all_group_list
-from inWorking.chatGPT.sqlChatGPT import set_bot_for_user
+# from inWorking.chatGPT.sqlChatGPT import set_bot_for_user
 from tools.config.config import Config
 
 
@@ -80,7 +80,7 @@ class EasySettings:
     def set_bot_for_user():
         user_id = EasySettings.run_function(int, input("Введите user_id: "))
         bot_name = input("Введите bot_name: ")
-        set_bot_for_user(user_id=user_id, bot_name=bot_name)
+        # set_bot_for_user(user_id=user_id, bot_name=bot_name)
         input("Нажмите Enter чтобы продолжить...")
 
     @staticmethod
